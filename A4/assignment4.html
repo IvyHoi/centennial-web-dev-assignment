@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="galleryHeading">
+        <h1>My two lovely cats gallery</h1>
+        <h2>- Meow Meow Meow & Momo - </h2>
+    </div>
+    <div class="slider">
+
+        <div class="catImageBox">
+            <img id="currentImage" src="./images/catphoto1.jpeg" alt="Current Image">
+        </div>
+        <br>
+        <div id="catImageTextArea">
+            <label id="catImageText"></label>
+        </div>
+        <br>
+        <div>
+            <button id="previousButton">Previous</button>
+            <button id="nextButton">Next</button>
+            <button id="updateButton">Update</button>
+        </div>
+    </div>
+
+    <script src="catphotogallery.js"></script>
+
+</body>
+
+<footer id="footer">
+    <div id="homebutton">
+        <a href="../index.html">Back to Home Page</a>
+    </div>
+    <hr class="hr2">
+    <small>
+        Copyright &copy; Leung Hoi Fei Ivy - 301269532 - COMP125 - Client-Side Web Development - Summer 2023 - SEC403
+    </small>
+    <hr class="hr2">
+  </footer>
+  
+</html> 

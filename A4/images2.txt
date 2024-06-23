@@ -1,0 +1,8 @@
+[
+    { "image": "./images/catphoto6.jpeg", "duration": 2100,"text":"Series 2 - Meow meow meow is angry!!!" },
+    { "image": "./images/catphoto7.jpeg", "duration": 2100,"text":"Series 2 - Momo wearing sailor suit." },
+    { "image": "./images/catphoto8.jpeg", "duration": 2100,"text":"Series 2 - Meow meow meow wearing sailor suit." },
+    { "image": "./images/catphoto9.jpeg", "duration": 2100,"text":"Series 2 - Staring at you when you're sleeping!" },
+    { "image": "./images/catphoto10.jpeg", "duration": 2100,"text":"Series 2 - What??!!" }
+
+]

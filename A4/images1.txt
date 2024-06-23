@@ -1,0 +1,8 @@
+[
+    { "image": "./images/catphoto1.jpeg", "duration": 2100,"text":"Series 1 - Momo in the bag." },
+    { "image": "./images/catphoto2.jpeg", "duration": 2100,"text":"Series 1 - Hug each other <3" },
+    { "image": "./images/catphoto3.jpeg", "duration": 2100,"text":"Series 1 - Peeking you!" },
+    { "image": "./images/catphoto4.jpeg", "duration": 2100,"text":"Series 1 - Yum yum yum!" },
+    { "image": "./images/catphoto5.jpeg", "duration": 2100,"text":"Series 1 - We just playing =P" }
+
+]

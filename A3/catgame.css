@@ -1,0 +1,66 @@
+    body {
+    line-height: 1;
+    width: 1000px;
+    background: linear-gradient(to right, rgb(143, 185, 209),#E4E5E6 ); 
+    margin: 0 auto;
+    font-family:apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif
+     }
+
+     h1, h3{
+       color: #ffffff;
+    }
+     
+     #resetSpeed, #resetScore {
+    align-self: center;
+    background-color: rgb(143, 185, 209);
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    touch-action: manipulation;
+}
+
+#resetSpeed:hover, #resetScore:hover{
+    box-shadow: rgb(255, 255, 255) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+ }
+ 
+#resetSpeed:focus, #resetScore:active:focus {
+    box-shadow: rgb(255, 255, 255) 2px 8px 4px -6px;
+}
+ 
+#gamePlace {
+       border: 2px solid rgb(255, 255, 255);
+       border-radius: 10px;
+    }
+
+    #footer {
+        bottom: 0;
+        width: 100%;
+        height: 3rem;
+        margin-top: 80px;
+        color: rgb(22, 69, 170);
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hr2 {
+        border-style: solid;
+        border-color: rgb(22, 69, 170);
+        border-width: 1px;
+    }
+
+    #homebutton {
+        text-align: center;
+    }

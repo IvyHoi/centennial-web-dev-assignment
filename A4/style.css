@@ -1,0 +1,140 @@
+
+*{
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    line-height: 1;
+    width: 1000px;
+    background: linear-gradient(to left, rgb(143, 185, 209), #E4E5E6);
+    margin: 0 auto;
+}
+
+#galleryHeading{
+    color: #ffffff;
+	text-shadow: 0px 0px 10px #ffffff52, 0px 0px 10px #ffffff91;
+        font-size:xx-large;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.slider {
+    margin: 278px;
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+.catImageBox {
+    width: 100%;
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+#currentImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: fadeIn 5s;
+    transition: opacity 0.4s;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+#catImageText {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#catImageTextArea {
+    margin-left: -2px;
+    Width: 421px;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    height: 18px;
+}
+
+
+
+#previousButton,
+#nextButton,
+#updateButton {
+    align-items: center;
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #5777e0;
+    cursor: pointer;
+    display: inline-flex;
+    height: 50px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 25px;
+}
+
+#previousButton:focus,
+#nextButton:focus,
+#updateButton:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+#previousButton:hover,
+#nextButton:hover,
+#updateButton:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #2043b9;
+    transform: translateY(-2px);
+}
+
+#previousButton:active,
+#nextButton:active,
+#updateButton:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    margin-top: 400px;
+    color: rgb(22, 69, 170);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr2 {
+    border-style: solid;
+    border-color: rgb(22, 69, 170);
+    border-width: 1px;
+}
+
+#homebutton {
+    text-align: center;
+}
